@@ -17,7 +17,7 @@ consumes: {
   power: 99
   items: {
     items: [
-      blast-compound/1
+      copper/1
     ]
   }
   liquid: {
