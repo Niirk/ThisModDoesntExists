@@ -1,0 +1,32 @@
+type: ImpactReactor
+name: E.V.O.K.
+description: special effects.
+itemCapacity: 55
+hasLiquids: true
+health: 97488
+baseExplosiveness: 9000
+size: 1
+warmupSpeed: 0.003
+baseExplosiveness: 5000
+itemDuration: 10
+explosionRadius: 3107
+explosionDamage: 2020
+plasmas: 10
+powerProduction: 31072005
+consumes: {
+  power: 99
+  items: {
+    items: [
+      blast-compound
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.01
+  }
+}
+category: power
+activeSound: thruster
+activeSoundVolume: 0.85
+idleSound: respawning
+idleSoundVolume: 0.25
