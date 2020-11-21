@@ -26,7 +26,3 @@ consumes: {
   }
 }
 category: power
-activeSound: thruster
-activeSoundVolume: 0.85
-idleSound: respawning
-idleSoundVolume: 0.25
