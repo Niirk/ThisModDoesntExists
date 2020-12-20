@@ -1,0 +1,78 @@
+type: ItemTurret
+name: Necromancer
+description: An advanced turret
+
+health: 4800
+size: 3
+range: 250
+reloadTime: 20
+coolantMultiplier: 2
+shootShake: 2
+shootSound: shootBig
+shootEffect: shootBig
+shootSmoke: shootBigSmoke
+
+ammoTypes: {
+  shadum: {
+    type: BasicBulletType
+    width: 15
+    height: 20
+    lifetime: 35
+    speed: 6.5
+    damage: 50
+    pierce: false
+    fragBullets: 5
+    ammoMultiplier: 2
+    splashDamage: 2
+    splashDamageRadius: 25
+    hitEffect: massiveExplosion
+    hitShake: 3
+    frontColor: 8b73c7
+    backColor: 5c5e9e
+  }
+  comp-shadum: {
+      type: FlakBulletType
+    width: 12
+    height: 16
+    lifetime: 45
+    speed: 6.1
+    damage: 40
+    pierce: false
+    fragBullets: 3
+    ammoMultiplier: 2
+    splashDamage: 8
+    splashDamageRadius: 40
+    hitEffect: massiveExplosion
+    hitShake: 3.5
+    frontColor: 8b73c7
+    backColor: 5c5e9e
+    fragBullet: {
+      type: BasicBulletType
+      lifetime: 40
+      damage: 18.5
+      width: 10
+      heigth: 13
+      frontColor: 5c5e9e
+      backColor: 5c5e9e
+    }
+  } 
+}
+
+requirements: [
+  shadum/254
+  graphite/45
+  lead/105
+  titanium/45
+]
+
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.6
+    optional: true
+    booster: true
+  }
+} 
+
+category: turret
+research: sur
