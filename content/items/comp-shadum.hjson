@@ -1,0 +1,9 @@
+  
+name: cshadum
+research: {
+ parent: lead
+ requiriments:
+ [
+ copper/1
+ ]
+}
