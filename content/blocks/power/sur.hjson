@@ -1,0 +1,5 @@
+type: wall
+health: 350
+requiriments: [
+ iron/6
+]
