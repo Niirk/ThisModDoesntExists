@@ -3,3 +3,4 @@ health: 350
 requiriments: [
  iron/6
 ]
+research: copperWall
